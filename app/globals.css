@@ -25,3 +25,23 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+nav {
+  background-color: white;
+}
+
+.main {
+  background-color: #F8F9FA;
+}
+
+.logo_text {
+  @apply bg-gradient-to-r from-cyan-300 to-cyan-700 bg-clip-text text-transparent text-lg font-bold
+}
+
+.menu_text {
+  @apply mx-5 bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent font-semibold;
+}
+
+.head_text {
+  @apply mt-5 text-lg font-bold leading-[1.15] text-black sm:text-2xl;
+}
